@@ -14,8 +14,8 @@
 
   Area control game, based on history of Eastern Zhou.
   
-## The daughter of time travllers
+## Once Upon A Time
 
-  Trick winning card game with hidden information and identifiers.
+  Trick winning card game with hidden information and characters based on fairy tales.
   
 
