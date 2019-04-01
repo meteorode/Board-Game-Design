@@ -1,0 +1,165 @@
+{"Skill":[
+    {"name": "Scion of Flame",
+     "imageName": "card_scion_of_flame",
+     "cost": 1,
+     "effects":[
+       {"targetMonster": "any",
+        "effectType": "modifyHP",
+        "hpModifier": [-1, -1, -1, -1],
+        "atkModifier": [0, 0, 0, 0],
+        "lvlModifier": [0, 0, 0, 0],
+        "blockAmount": 0
+        }
+      ],
+     "transferCards": [],
+     "description": "Deal 1 damage to any single monster.",
+     "amount": 3,
+     "isInit": "True"
+   },
+     {"name": "Water Guard Stance",
+      "imageName": "card_water_guard_stance",
+      "cost": 2,
+      "effects":[
+        {"targetMonster": "friendlySingle",
+         "effectType": "blockATK",
+         "hpModifier": [0, 0, 0, 0],
+         "atkModifier": [0, 0, 0, 0],
+         "lvlModifier": [0, 0, 0, 0],
+         "blockAmount": -1
+       }
+     ],
+      "transferCards": [],
+      "description": "Reduce damage to a chosen friendly monster by 1 for one turn.",
+      "amount": 2,
+      "isInit": "False"},
+      {"name": "Dance of Heavenly Worship",
+       "imageName": "card_dance_of_heavenly_worship",
+       "cost": 4,
+       "effects":[
+         {"targetMonster": "friendly",
+          "effectType": "modifyATK",
+          "hpModifier": [0, 0, 0, 0],
+          "atkModifier": [1, 1, 0, 0],
+          "lvlModifier": [0, 0, 0, 0],
+          "blockAmount": 0
+        }
+      ],
+       "transferCards": [],
+       "description": "All friendly monster's ATK increased by 1 for one turn.",
+       "amount": 2,
+       "isInit": "False"
+     },
+       {"name": "Ninja Art Shadow",
+        "imageName": "card_ninja_art_shadow",
+        "cost": 4,
+        "effects":[
+          {"targetMonster": "hostile",
+           "effectType": "modifyHP",
+           "hpModifier": [0, 0, -1, -1],
+           "atkModifier": [0, 0, 0, 0],
+           "lvlModifier": [0, 0, 0, 0],
+           "blockAmount": 0
+         }
+       ],
+        "transferCards": [],
+        "description": "Deal 1 damage to each hostile monster.",
+        "amount": 2,
+        "isInit": "False"},
+      {"name": "Gungnir",
+         "imageName": "card_gungnir",
+         "cost": 4,
+         "effects":[
+           {"targetMonster": "any",
+            "effectType": "modifyHP",
+            "hpModifier": [-3, -3, -3, -3],
+            "atkModifier": [0, 0, 0, 0],
+            "lvlModifier": [0, 0, 0, 0],
+            "blockAmount": 0
+          }
+        ],
+         "transferCards": [],
+         "description": "Deal 3 damage to any monster(include friendly).",
+         "amount": 2,
+         "isInit": "False"
+       },
+       {"name": "Mercy of the Trees",
+          "imageName": "card_mercy_of_the_trees",
+          "cost": 4,
+          "effects":[
+            {"targetMonster": "friendlySingle",
+             "effectType": "modifyHP",
+             "hpModifier": [2, 2, 0, 0],
+             "atkModifier": [0, 0, 0, 0],
+             "lvlModifier": [0, 0, 0, 0],
+             "blockAmount": 0
+           }
+         ],
+          "transferCards": [],
+          "description": "Recover 2 HP to any friendly monster.",
+          "amount": 2,
+          "isInit": "False"
+       },
+       {"name": "Breath of Creation",
+          "imageName": "card_breath_of_creation",
+          "cost": 5,
+          "effects":[
+            {"targetMonster": "any",
+             "effectType": "modifyLv",
+             "hpModifier": [0, 0, 0, 0],
+             "atkModifier": [0, 0, 0, 0],
+             "lvlModifier": [1, 1, 1, 1],
+             "blockAmount": 0
+           }
+         ],
+          "transferCards": [],
+          "description": "Upgrade any single monster and fully recover its HP.",
+          "amount": 1,
+          "isInit": "False"
+        },
+        {"name": "Shower of Healing",
+           "imageName": "card_shower_of_healing",
+           "cost": 5,
+           "effects":[
+             {"targetMonster": "any",
+              "effectType": "modifyHP",
+              "hpModifier": [255, 255, 255, 255],
+              "atkModifier": [0, 0, 0, 0],
+              "lvlModifier": [0, 0, 0, 0],
+              "blockAmount": 0
+            }
+          ],
+           "transferCards": [],
+           "description": "Fully heal a monster.",
+           "amount": 1,
+           "isInit": "False"
+         },
+          {"name": "Squid Evolution",
+             "imageName": "card_squid_evolution",
+             "cost": 4,
+             "effects":[
+               {"targetMonster": "itself",
+                "effectType": "noEffect",
+                "hpModifier": [0, 0, 0, 0],
+                "atkModifier": [0, 0, 0, 0],
+                "lvlModifier": [0, 0, 0, 0],
+                "blockAmount": 0
+              }
+            ],
+             "transferCards": [
+               {"from": "purchasePile",
+                "to": "battleGround",
+                "drawNumber": 1,
+                "random": "False"
+              },
+              {"from": "battleGround",
+               "to": "discardPile",
+               "drawNumber": 1,
+               "random": "False"
+             },
+             ],
+             "description": "Evolve Squid to Squid Version 2.",
+             "amount": 2,
+             "isInit": "False"
+           },
+    ]
+}

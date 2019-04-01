@@ -1,0 +1,220 @@
+{"Skill":[
+    {"name": "Wisdom of Ancients",
+     "imageName": "card_wisdom_of_ancients",
+     "cost": 1,
+     "effects":[
+       {"targetMonster": "friendly",
+        "effectType": "switchPosition",
+        "hpModifier": [0, 0, 0, 0],
+        "atkModifier": [0, 0, 0, 0],
+        "lvlModifier": [0, 0, 0, 0],
+        "blockAmount": 0
+        }
+      ],
+     "transferCards": [],
+     "description": "Switch two friendly monster's poistion, each can perform actions after switch.",
+     "amount": 3,
+     "isInit": "True"
+   },
+     {"name": "Venus World",
+      "imageName": "card_venus_world",
+      "cost": 2,
+      "effects":[
+        {"targetMonster": "any",
+         "effectType": "noEffect",
+         "hpModifier": [0, 0, 0, 0],
+         "atkModifier": [0, 0, 0, 0],
+         "lvlModifier": [0, 0, 0, 0],
+         "blockAmount": 0
+       }
+     ],
+      "transferCards": [
+        {"from": "purchasePile",
+         "to": "hands",
+         "drawNumber": 1,
+         "random": "False"
+        }
+      ],
+      "description": "Choose a monster for purchase to replace one from your hand.",
+      "amount": 2,
+      "isInit": "False"
+    },
+      {"name": "Robe of Protection",
+       "imageName": "card_robe_of_protection",
+       "cost": 2,
+       "effects":[
+         {"targetMonster": "friendlySingle",
+          "effectType": "blockATK",
+          "hpModifier": [0, 0, 0, 0],
+          "atkModifier": [0, 0, 0, 0],
+          "lvlModifier": [0, 0, 0, 0],
+          "blockAmount": -255
+        }
+      ],
+       "transferCards": [],
+       "description": "Immune one single attack.",
+       "amount": 2,
+       "isInit": "False"
+     },
+       {"name": "Life Drain",
+        "imageName": "card_life_drain",
+        "cost": 3,
+        "effects":[
+          {"targetMonster": "enemySingle",
+           "effectType": "modifyHP",
+           "hpModifier": [1, 1, -1, -1],
+           "atkModifier": [0, 0, 0, 0],
+           "lvlModifier": [0, 0, 0, 0],
+           "blockAmount": 0
+         },
+         {"targetMonster": "friendlySingle",
+          "effectType": "modifyHP",
+          "hpModifier": [1, 1, -1, -1],
+          "atkModifier": [0, 0, 0, 0],
+          "lvlModifier": [0, 0, 0, 0],
+          "blockAmount": 0
+        },
+       ],
+        "transferCards": [],
+        "description": "Deal 1 damage and recover 1 HP to one of your own monster.",
+        "amount": 2,
+        "isInit": "False"
+      },
+      {"name": "Ultra Gravity",
+         "imageName": "card_ultra_gravity",
+         "cost": 5,
+         "effects":[
+           {"targetMonster": "all",
+            "effectType": "noEffect",
+            "hpModifier": [0, 0, 0, 0],
+            "atkModifier": [0, 0, 0, 0],
+            "lvlModifier": [0, 0, 0, 0],
+            "blockAmount": 0
+          }
+        ],
+         "transferCards": [
+           {"from": "battleGround",
+            "to": "discardPile",
+            "drawNumber": 4,
+            "random": "False"
+           }
+         ],
+         "description": "Remove all the monsters from battleGround to discard pile, which doesn't increase amount of the crystal.",
+         "amount": 1,
+         "isInit": "False"
+       },
+       {"name": "Freeze Strike",
+          "imageName": "card_free_strike",
+          "cost": 4,
+          "effects":[
+            {"targetMonster": "any",
+             "effectType": "modifyHP",
+             "hpModifier": [-3, -3, -3, -3],
+             "atkModifier": [0, 0, 0, 0],
+             "lvlModifier": [0, 0, 0, 0],
+             "blockAmount": 0
+           }
+         ],
+          "transferCards": [],
+          "description": "Deal 3 damage to any monster(include friendly).",
+          "amount": 2,
+          "isInit": "False"
+       },
+       {"name": "Droidance",
+          "imageName": "card_droidance",
+          "cost": 4,
+          "effects":[
+            {"targetMonster": "all",
+             "effectType": "noEffect",
+             "hpModifier": [0, 0, 0, 0],
+             "atkModifier": [0, 0, 0, 0],
+             "lvlModifier": [0, 0, 0, 0],
+             "blockAmount": 0
+           }
+         ],
+          "transferCards": [
+            {"from": "battleGround",
+             "to": "discardPile",
+             "drawNumber": 1,
+             "random": "False"
+            }
+          ],
+          "description": "Remove all the monsters from battleGround to discard pile, which doesn't increase amount of the crystal.",
+          "amount": 2,
+          "isInit": "False"
+        },
+        {"name": "Mystical Enhancement",
+           "imageName": "card_mystical_enhancement",
+           "cost": 3,
+           "effects":[
+             {"targetMonster": "any",
+              "effectType": "modifyATK",
+              "hpModifier": [0, 0, 0, 0],
+              "atkModifier": [2, 2, -2, -2],
+              "lvlModifier": [0, 0, 0, 0],
+              "blockAmount": 0
+            }
+          ],
+           "transferCards": [],
+           "description": "Remove all the monsters from battleGround to discard pile, which doesn't increase amount of the crystal.",
+           "amount": 2,
+           "isInit": "False"
+         },
+         {"name": "Apollo's Shining",
+            "imageName": "card_apollo_shining",
+            "cost": 3,
+            "effects":[
+              {"targetMonster": "friendlySingle",
+               "effectType": "noEffect",
+               "hpModifier": [0, 0, 0, 0],
+               "atkModifier": [0, 0, 0, 0],
+               "lvlModifier": [0, 0, 0, 0],
+               "blockAmount": 0
+             }
+           ],
+            "transferCards": [
+              {"from": "discardPile",
+               "to": "hands",
+               "drawNumber": 1,
+               "random": "False"
+             },
+             {"from": "hands",
+              "to": "discardPile",
+              "drawNumber": 1,
+              "random": "False"
+            },
+            ],
+            "description": "Pick one monster from discard pile to replace one in your hands.",
+            "amount": 2,
+            "isInit": "False"
+          },
+          {"name": "Ogre Evolution",
+             "imageName": "card_ogre_evolution",
+             "cost": 4,
+             "effects":[
+               {"targetMonster": "itself",
+                "effectType": "noEffect",
+                "hpModifier": [0, 0, 0, 0],
+                "atkModifier": [0, 0, 0, 0],
+                "lvlModifier": [0, 0, 0, 0],
+                "blockAmount": 0
+              }
+            ],
+             "transferCards": [
+               {"from": "purchasePile",
+                "to": "battleGround",
+                "drawNumber": 1,
+                "random": "False"
+              },
+              {"from": "battleGround",
+               "to": "discardPile",
+               "drawNumber": 1,
+               "random": "False"
+             },
+             ],
+             "description": "Evolve Ogre to Armor Ogre.",
+             "amount": 2,
+             "isInit": "False"
+           },
+    ]
+}
