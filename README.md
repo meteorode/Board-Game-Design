@@ -18,4 +18,7 @@
 
   Trick winning card game with hidden information and characters based on fairy tales.
   
+## Ragnarok / 诸神之黄昏
+
+  A mythlogy based, deck building duel game.
 
