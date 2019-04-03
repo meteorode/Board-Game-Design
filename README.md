@@ -1,6 +1,6 @@
 # Board-Game-Design
 
-  Here's old board games designed by [Meteor](meteorode) and [Dreamweaver](Fan Yang(杨帆) yangfannet). Feel free to fork/print/play by yourself!
+  Here's old board games designed by [Meteor](https://github.com/meteorode) and [Dreamweaver](https://github.com/yangfannet). Feel free to fork/print/play by yourself!
 
 ## Alice in Wonderland by Meteor
 
