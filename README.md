@@ -1,27 +1,31 @@
 # Board-Game-Design
 
-  Here's old board games designed by Meteor. Feel free to fork/print/play by yourself!
+  Here's old board games designed by [Meteor](meteorode) and [Dreamweaver](Fan Yang(杨帆) yangfannet). Feel free to fork/print/play by yourself!
 
-## Alice in Wonderland
+## Alice in Wonderland by Meteor
 
   A storytelling party game.
   
-## 脑残江湖
+## 脑残江湖 by Meteor
 
   A Bang! like, Wuxia background board game.
   
-## 战国策
+## 战国策 by Meteor
 
   Area control game, based on history of Eastern Zhou.
   
-## Once Upon A Time
+## Once Upon A Time by Meteor
 
   Trick winning card game with hidden information and characters based on fairy tales.
   
-## Ragnarok / 诸神之黄昏
+## Ragnarok / 诸神之黄昏 by Meteor
 
   A mythlogy based, deck building duel game.
 
-## A Brief History of World
+## A Brief History of World by Meteor
 
   A history card game.
+  
+## 水浒杀 by Dreamweaver
+
+  A marvelous creative card game inspired by BANG!
